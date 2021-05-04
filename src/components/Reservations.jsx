@@ -66,10 +66,9 @@ class Reservations extends Component {
         // and I cannot set the state here either
         // this.setState({ reservations: ['stefano'] })
 
-
         return (
             <>
-                <h3>RESERVATIONS</h3>
+                <h3>{this.props.header || "Reservations"}</h3>
                 {/* conditional rendering */}
                 {
                     this.state.isLoading &&

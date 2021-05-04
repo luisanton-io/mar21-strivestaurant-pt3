@@ -5,8 +5,8 @@ import Home from './components/Home'
 const App = () => {
   return (
     <div>
-      <MyNavBar title="Strivestaurant" />
-      <Home />
+      <MyNavBar title="new title" />
+      <Home newTitle="new title" newPayoff="new payoff" />
     </div>
   )
 }
